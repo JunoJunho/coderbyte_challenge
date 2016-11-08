@@ -27,7 +27,7 @@ def LetterChanges(str):
             new_str[i] = "U"
         elif new_str[i] == "i":
             new_str[i] = "I"
-    # code goes here
+        # code goes here
     return "".join(new_str)
 
 
