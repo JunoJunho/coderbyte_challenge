@@ -5,7 +5,7 @@
 def SimpleAdding(num):
     int_num = int(num)
     sum_num = 0
-    for i in range(int_num):
+    for i in range(int_num + 1):
         sum_num += i
 
     return sum_num
